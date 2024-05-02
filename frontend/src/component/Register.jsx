@@ -54,7 +54,7 @@ const Register = () => {
       formData.append('avatar', avatar);
 
       const response = await axios.post(
-        'http://localhost:8000/api/v1/user/register',
+        'http://signupscreen-6.onrender.com/api/v1/user/register',
         formData,
         {
           headers: {

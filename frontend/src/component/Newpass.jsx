@@ -20,7 +20,7 @@ const Newpass = () => {
 
     try {
       await axios.post(
-        `http://localhost:8000/api/v1/user/changepasswod/${token}`,
+        `http://signupscreen-6.onrender.com/api/v1/user/changepasswod/${token}`,
         {
           token,
           newPassword,

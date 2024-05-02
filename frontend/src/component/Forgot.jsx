@@ -9,7 +9,7 @@
 //   const handleSubmit = async (e) => {
 //     e.preventDefault();
 //     try {
-//       await axios.post('http://localhost:8000/api/v1/user/forgotpassword', { email });
+//       await axios.post('http://signupscreen-6.onrender.com/api/v1/user/forgotpassword', { email });
 //       toast.success('Password reset link sent to your email');
 //       navigate('/newpass')
 //     } catch (error) {
@@ -57,7 +57,7 @@ const Forgot = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8000/api/v1/user/forgotpassword', { email });
+      await axios.post('http://signupscreen-6.onrender.com/api/v1/user/forgotpassword', { email });
       toast.success('Password reset link sent to your email');
       navigate('/login'); // After sending the reset link, direct to the login page
     } catch (error) {

@@ -52,7 +52,7 @@ This project is a full-stack web application combining a React and Redux fronten
    ```
 
 3. **Access the Application**:
-   Open your web browser and go to `http://localhost:5173/` to view the frontend. The backend typically runs on a different port (e.g., `http://localhost:8000/`).
+   Open your web browser and go to `http://localhost:5173/` to view the frontend. The backend typically runs on a different port (e.g., `http://signupscreen-6.onrender.com/`).
 
 ## Detailed README Files
 Each section of the project has a dedicated README with more information:
