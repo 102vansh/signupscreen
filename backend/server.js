@@ -32,6 +32,6 @@ app.use(cors(
 const userrouter = require("./route/user.route")
 app.use("/api/v1/user",userrouter)
 app.use(errormiddleware)
-app.listen(port,(req,res)=>{
+app.listen(port,'0.0.0.0',(req,res)=>{
     console.log(`server is running on port ${port}`)
 })
