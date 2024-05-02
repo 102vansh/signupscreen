@@ -90,7 +90,7 @@ This project is a frontend application built with React and Redux for state mana
 3. **Run the Development Server**:
    Start the React development server.
    ```bash
-   npm start
+   npm run dev
    ```
 
 4. **Navigate in the Application**:

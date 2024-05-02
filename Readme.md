@@ -20,8 +20,8 @@ This project is a full-stack web application combining a React and Redux fronten
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/102vansh/signupscreen.git
+   
    ```
 
 2. **Install Frontend and Backend Dependencies**:
@@ -48,7 +48,7 @@ This project is a full-stack web application combining a React and Redux fronten
    In the frontend directory, start the React development server.
    ```bash
    cd frontend
-   npm start
+   npm run dev
    ```
 
 3. **Access the Application**:
