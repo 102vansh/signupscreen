@@ -149,7 +149,7 @@ To run the backend, follow these steps:
 ## Additional Documentation
 Here are links to other README files within the backend folder for more details:
 
-- [Model README](./models/README.md): Provides information on connecting to MongoDB and configuring the database.
+- [Model README](../models/README.md): Provides information on connecting to MongoDB and configuring the database.
 - [Error Handling README](./middleware/README.md): Details the custom error handling mechanism used in the backend.
 - [Routes README](./route/README.md): Describes the user-related routes and operations.
 - [Controllers README](./controllers/README.md): Describes the user-related routes and operations.
